@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PreguntadORT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PreguntadORT.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\css\\configurarJuegoStyle.css",
+      "PackagePath": "staticwebassets\\css\\configurarJuegoStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\css\\juegoStyle.css",
+      "PackagePath": "staticwebassets\\css\\juegoStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\PreguntadORT.png",
+      "PackagePath": "staticwebassets\\img\\PreguntadORT.png"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\deporte.png",
+      "PackagePath": "staticwebassets\\img\\deporte.png"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\flecha hacia atras.png",
+      "PackagePath": "staticwebassets\\img\\flecha hacia atras.png"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\fondo dificil.jpeg",
+      "PackagePath": "staticwebassets\\img\\fondo dificil.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\fondo facil.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo facil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\fondo medio.jpeg",
+      "PackagePath": "staticwebassets\\img\\fondo medio.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\fondo.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\img\\index.jpg",
+      "PackagePath": "staticwebassets\\img\\index.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ramak\\Downloads\\TP07_PreguntadORT2-master\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PreguntadORT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PreguntadORT.props",
+      "PackagePath": "build\\PreguntadORT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PreguntadORT.props",
+      "PackagePath": "buildMultiTargeting\\PreguntadORT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PreguntadORT.props",
+      "PackagePath": "buildTransitive\\PreguntadORT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
