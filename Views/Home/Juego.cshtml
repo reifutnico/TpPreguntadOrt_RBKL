@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/css/juegoStyle.css">
+
+
+<section class="sala">
+  <div class="container-juego">
+    <div class="pregunta">
+      <h2>@ViewBag.Pregunta.Enunciado</h2>
+    </div>
+    
+    @foreach (var item in ViewBag.Respuesta)
+    {
+      <form action='@Url.Action("VerificarRespuesta")' method="post">
+        <input type="hidden" name="IdPregunta" value="@item.IdPregunta">
+        <input type="hidden" name="IdRespuesta" value="@item.IdRespuesta">
+        <button class="boton_confg">@item.Contenido</button>
+      </form>
+    }
+  </div>
+
+
+</section>
+

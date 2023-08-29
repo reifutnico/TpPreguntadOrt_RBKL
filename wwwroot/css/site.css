@@ -1,0 +1,103 @@
+html {
+  font-size: 62.5%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-image: url(/img/index.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Navegador */
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 10px 30px;
+}
+
+.logo {
+  margin-right: 50px; 
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: flex;
+  align-items: center;
+}
+
+/* Boton navegador */
+.inicio__boton
+{
+  background-color:rgb(31, 200, 104) ; 
+  border: 2px solid rgb(33, 255, 129);
+  border-radius: 40px;
+  padding: 20px 80px;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Todavia no implementado */
+
+.final h3 {
+  font-size: 5rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  margin: 0px, 10px ;
+}
+
+
+.submitRojo
+{
+  background-color: rgb(251, 0, 0);
+  color: red;
+}
+
+.submitVerde
+{
+  background-color: rgb(109, 249, 0);
+  color: green;
+}
+
+
+.button-dc input[type="text"] {
+  width: 400px; /* Ancho del campo de entrada */
+  height: 60px; /* Altura del campo de entrada */
+  border-radius: 20px; /* Borde redondo */
+  padding: 10px; /* Espacio interno */
+  font-size: 1.5rem; /* Tamaño de fuente */
+  margin-bottom: 15px; /* Espacio inferior entre elementos */
+}
+
+.button-dc input[type="submit"] {
+  background-color: green;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.button-dc input[type="submit"]:hover {
+  background-color: darkgreen;
+}

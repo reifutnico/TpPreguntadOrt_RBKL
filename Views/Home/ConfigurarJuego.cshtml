@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="/css/configurarJuegoStyle.css">
+
+
+<section class="sala" id="sala2">
+
+    <form action='@Url.Action("Comenzar")' method="get">
+            <div class="container">
+                <div class="button-dc">
+                    <h2>USERNAME</h2>
+                <input type="text" required="" autocomplete="off" name="username">
+                </div>
+
+                <div class="button-dc">
+                    <h2>DIFICULTAD</h2>
+                    <select name="dificultad" required>
+                        @foreach(var item in ViewBag.Dificultad){
+                            <option value="@item.IdDificultad">@item.Nombre</option>
+                        }
+                        <option value= "-1">Todas</option>
+                    </select>
+                </div>
+
+                <div class="button-dc">
+                    <h2>CATEGORIA</h2>
+                    <select name="categoria" required>
+                        @foreach(var item in ViewBag.Categoria){
+                            <option value="@item.IdCategoria">@item.Nombre</option>
+                        }
+                        <option value= "-1">Todas</option>
+                    </select>
+                </div>
+                
+                <a href='@Url.Action("Comenzar")'><button class="inicio__boton">¡AVANZAR!</button></a>
+            </div>
+    </form>
+
+</section>

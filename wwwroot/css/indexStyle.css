@@ -1,0 +1,27 @@
+.inicio__boton
+{
+  background-color:rgb(31, 200, 104) ; 
+  border: 2px solid rgb(33, 255, 129);
+  border-radius: 40px;
+  padding: 20px 80px;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.titulo h2{
+  justify-content: space-around;
+  font-size: 4rem;
+  font-family: 'Luckiest Guy', cursive;
+  background: linear-gradient(to right, rgb(255, 255, 255) 75%, rgb(60, 154, 242) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulo{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}

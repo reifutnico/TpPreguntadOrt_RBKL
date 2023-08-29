@@ -1,0 +1,113 @@
+
+body{
+    background-image: url(/img/fondo-facil.jpg);
+    background-size: cover;
+}
+
+.container-juego{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-juego button{
+    width: 400px;
+    margin: 35px;
+    border-radius: 40px;
+    padding: 10px 50px;
+    font-size: 2.5rem; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Londrina Solid', cursive;
+}
+
+.boton_confg{
+    background-color: rgb(255, 255, 255);
+}
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+}
+
+.container-juego form{
+    display: flex;
+    justify-content: center;
+}
+
+.pregunta h2 {
+    font-size: 2rem;
+    font-family: 'Luckiest Guy', cursive;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+section{
+    margin-top: 200px;
+}
+
+
+/* respuesta */
+
+.resultadoIncorrecto
+{
+    display: flex;
+    justify-content: center
+}
+.resultadoIncorrecto h2 {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(250, 0, 0);
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    line-height: 1;
+  }
+  
+  .resultadoCorrecto h2 {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(9, 255, 0);
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    line-height: 1;
+  }
+  
+  .resultadoCorrecto
+{
+    display: flex;
+    justify-content: center
+}
+
+.container-respuesta button
+{
+    width: 400px;
+    margin: 35px;
+    border-radius: 40px;
+    padding: 10px 50px;
+    font-size: 2.5rem; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Londrina Solid', cursive;
+}
+
+.container-respuesta
+{
+    display: flex;
+    justify-content: center
+}
+

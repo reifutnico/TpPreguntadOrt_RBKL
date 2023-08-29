@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/puntajesStyle.css">
+
+
+   <div class="container">
+    <h1>Tabla de Puntajes</h1>
+    <table class="score-table">
+        <thead>
+            <tr>
+                  <th>Usuario</th>
+                  <th>Puntaje</th>
+                  <th>Cantidad de preguntas correctas</th>
+                    <th>Fecha y hora</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach(var item in ViewBag.ListaPuntajes){
+        <tr>
+            <th>@item.Username</th>
+            <th>@item.Puntaje</th>
+            <th>@item.CantCorrectas</th>
+            <th>@item.FechaHora</th>
+        </tr>
+            }
+        </tbody>
+    </table>
+    </div>

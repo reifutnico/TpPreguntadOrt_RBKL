@@ -1,0 +1,50 @@
+.container
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #f7b634;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.score-table th, .score-table td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.score-table th {
+    background-color: #ff9b68;
+    color: white;
+    font-weight: bold;
+}
+
+.score-table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}

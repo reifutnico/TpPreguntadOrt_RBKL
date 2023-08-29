@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/css/juegoStyle.css">
+    <section class="sala">
+    <div class="container-juego">
+    
+    </div>
+
+
+    @if (ViewBag.Correcto == false)
+    
+    {
+    
+        <div class="container-juego">
+        
+            <div class="resultadoIncorrecto">
+                
+                <h2>INCORRECTO </h2>
+            
+            </div>
+        </div>
+    } @if (ViewBag.Correcto == true)
+    {
+        <div class="container-juego">
+
+                <div class="resultadoCorrecto">
+                    <h2>CORRECTO</h2>
+                </div>
+
+        </div>
+    }
+    <div class="container-respuesta">
+    <a href='@Url.Action("jugar")'><button class="inicio__boton">Siguiente pregunta</button></a>
+    </div>
+
+
+    </div>
+
+
+
+</section>

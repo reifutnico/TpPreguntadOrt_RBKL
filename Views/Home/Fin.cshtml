@@ -1,0 +1,19 @@
+    <link rel="stylesheet" href="/css/finStyle.css">
+
+    <div class="container">
+        <h2>¡FELICIDADES!</h2>
+        <div class="button-dcFin">
+            <div class="final">
+                <h3>Nombre de usuario: @ViewBag.Username </h3> 
+                <h3>Cantidad de respuestas correctas:@ViewBag.CantidadPreguntasCorrectas</h3>
+                <h3>Tu puntaje final: @ViewBag.puntajeActual</h3>
+            </div> 
+            </div>
+                 <div class="boton">
+                     <a href='@Url.Action("Puntajes")'><button type="button" class="button-containerVerde">VER TABLAS</button></a>      
+                 </div>
+        
+        <div class="button-container2">
+            <a href='@Url.Action("ConfigurarJuego")'><button type="button" class="button-containerVerde">VOLVER A JUGAR</button></a>
+        </div>
+    </div>
